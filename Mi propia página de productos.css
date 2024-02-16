@@ -1,0 +1,110 @@
+header {
+    background-color: rgba(128, 247, 247, 0.486);
+   padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: rgba(5, 5, 5, 0.966);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color:   aqua;
+    text-decoration:underline;
+}
+
+nav a:active{
+    font-size: 30px;
+    color: brown;
+}
+
+.productos {
+    width: 940px;
+    margin: auto;
+    padding: 30px;
+}
+
+.productos li {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    border: 5px solid rgba(128, 247, 247, 0.486);
+    margin: 10% 1.5%;
+    width: 30%;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.producto-precio-cabello {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.producto-precio-barba-cabello {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+.producto-precio-barba {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+.productos h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.producto-descripción {
+    font-size: 20px;
+}
+
+.productos li:hover {
+    border-color: aqua;
+}
+
+.productos li:active {
+    border-color: rgb(208, 255, 0);
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+footer {
+    background: url(imagenes/bg.jpg);
+    text-align: center;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+}
+
